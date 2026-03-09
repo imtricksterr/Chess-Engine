@@ -8,5 +8,5 @@ include_directories(include)
 add_executable(engine
     src/main.cpp
     src/engine/search.cpp    
-    src/engine/evaluate.cpp 
+    src/engine/evaluate.cpp sre
 )
